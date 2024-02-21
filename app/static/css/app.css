@@ -1,3 +1,68 @@
 body {
     padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, white 0%,white 45%,rgb(88, 167, 170) 45%, rgb(88, 167, 170)  100%);
 }
+
+.profileContainer{
+    text-align: center;
+    flex: 1;
+    
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.section1{
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.bio{
+    color: grey;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: grey;
+}
+
+.num{
+    color: black;
+    font-size: 25px;
+}
+
+.cards p{
+    flex:1;
+    padding-left: 50px;
+    padding-right: 100px;
+    
+   
+}
+
+button{
+    background-color: rgb(91, 205, 125);
+    color: white;
+    padding: 10px 40px  10px 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(53, 53, 176);
+}
+
+
+/* Image by <a href="https://pixabay.com/users/coffeebeanworks-558718/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2191933">Coffee Bean</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2191933">Pixabay</a> */
